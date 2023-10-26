@@ -1,14 +1,12 @@
 server:
-  port: 8080
-
-
+  port: 8081
 spring:
   application:
-    name: customer
+    name: fraud
   datasource:
     username: root
     password:
-    url: jdbc:mysql://localhost/microservice
+    url: jdbc:mysql://localhost/fraud
     driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     hibernate:
