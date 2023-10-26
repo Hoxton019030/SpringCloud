@@ -4,9 +4,9 @@ import hoxton.customer.request.CustomerRegisterRequest;
 import hoxton.customer.service.CustomerService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
 
 @Slf4j
 @RestController
@@ -15,8 +15,10 @@ import org.springframework.web.bind.annotation.RestController;
 public class CustomerController {
 
     private final CustomerService customerService;
-    public void registerCustomer(@RequestBody CustomerRegisterRequest customerRequest){
+    @PostMapping("/")
+    public ResponseEntity registerCustomer(@RequestBody CustomerRegisterRequest customerRequest){
         log.info("new customer registration {}",customerRequest);
         customerService.registerCustomer(customerRequest);
+        return ResponseEntity.status(HttpStatus.OK).body("ok");
     }
 }
