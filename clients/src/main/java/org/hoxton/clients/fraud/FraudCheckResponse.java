@@ -1,10 +1,16 @@
 package org.hoxton.clients.fraud;
 
+import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
+
+import java.io.Serializable;
 
 @Data
 @Builder
-public class FraudCheckResponse {
+@NoArgsConstructor
+@AllArgsConstructor
+public class FraudCheckResponse implements Serializable {
     Boolean isFraudster;
 }

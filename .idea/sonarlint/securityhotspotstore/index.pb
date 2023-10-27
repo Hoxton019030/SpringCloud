@@ -7,8 +7,6 @@ k
 ;customer/src/main/java/hoxton/customer/entity/Customer.java,1/0/109ad6f0488f3a395b412bbc77475b485a614b25
 y
 Icustomer/src/main/java/hoxton/customer/repository/CustomerRepository.java,4/0/40f0b6e0487f635230be982d2a79ef0a35ae0c83
-n
->fraud/src/main/java/org/example/service/FraudCheckService.java,0/d/0d493d7e85cea2dd5ead0c5736c1f4fb65b43de4
 f
 6fraud/src/main/java/org/example/FraudCheckHistory.java,c/b/cb68157bc54b6a3fc33e412d8b6b75d7855a6e4f
 q

@@ -3,8 +3,6 @@ t
 Dfraud/src/main/java/org/example/dao/FraudCheckHistoryRepository.java,e/c/ec00e588eccc779b13fdeed847b21e87fde66298
 {
 Kcustomer/src/main/java/hoxton/customer/request/CustomerRegisterRequest.java,e/9/e959c067685dad683d8ea33b7db38ced28efb6aa
-n
->fraud/src/main/java/org/example/service/FraudCheckService.java,0/d/0d493d7e85cea2dd5ead0c5736c1f4fb65b43de4
 f
 6fraud/src/main/java/org/example/FraudCheckHistory.java,c/b/cb68157bc54b6a3fc33e412d8b6b75d7855a6e4f
 k
