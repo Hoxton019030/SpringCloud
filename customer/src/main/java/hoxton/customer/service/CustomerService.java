@@ -25,12 +25,11 @@ public class CustomerService {
                 .build();
         customerRepository.saveAndFlush(customer);
 
-        FraudCheckResponse fraudCheckResponse = restTemplate.getForObject(
-                "http://FRAUD-SERVICE/api/v1/fraud-check/{customerId}", FraudCheckResponse.class, customer.getId());
+//        FraudCheckResponse fraudCheckResponse = restTemplate.{customerId}", FraudCheckResponse.class, customer.getId());
 
         FraudCheckResponse fraudster = fraudClient.isFraudster(customer.getId());
 
-        if (fraudCheckResponse.getIsFraudster()) {
+        if (fraudster.getIsFraudster()) {
             throw new IllegalStateException("舞弊者");
         }
     }

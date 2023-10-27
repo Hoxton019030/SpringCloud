@@ -1,6 +1,4 @@
 
-e
-5fraud/src/main/java/org/example/FraudApplication.java,7/c/7caf736fc6a61680c71e1ae4979f8cd901e2c39d
 t
 Dfraud/src/main/java/org/example/dao/FraudCheckHistoryRepository.java,e/c/ec00e588eccc779b13fdeed847b21e87fde66298
 {
@@ -15,5 +13,3 @@ y
 Icustomer/src/main/java/hoxton/customer/repository/CustomerRepository.java,4/0/40f0b6e0487f635230be982d2a79ef0a35ae0c83
 q
 Acustomer/src/main/java/hoxton/customer/config/CustomerConfig.java,7/c/7ca750ee3bdc71b5351da786ccfaa902cd39e7d5
-y
-Icustomer/src/main/java/hoxton/customer/controller/CustomerController.java,7/5/752927f61682f3fcf1a2b294bc22685c179c8194

@@ -15,9 +15,10 @@ import org.springframework.web.bind.annotation.*;
 public class CustomerController {
 
     private final CustomerService customerService;
+
     @PostMapping("/")
-    public ResponseEntity registerCustomer(@RequestBody CustomerRegisterRequest customerRequest){
-        log.info("new customer registration {}",customerRequest);
+    public ResponseEntity<String> registerCustomer(@RequestBody CustomerRegisterRequest customerRequest) {
+        log.info("new customer registration {}", customerRequest);
         customerService.registerCustomer(customerRequest);
         return ResponseEntity.status(HttpStatus.OK).body("ok");
     }
