@@ -13,10 +13,6 @@ k
 ;customer/src/main/java/hoxton/customer/entity/Customer.java,1/0/109ad6f0488f3a395b412bbc77475b485a614b25
 y
 Icustomer/src/main/java/hoxton/customer/repository/CustomerRepository.java,4/0/40f0b6e0487f635230be982d2a79ef0a35ae0c83
-u
-Eeureka-server/src/main/java/org/example/EurekaServiceApplication.java,b/1/b17f1063da957904e5ceb238e24360c24ae2c48e
-E
-eureka-server/pom.xml,b/3/b39ae52d769ea03b699b5602439afd875433c8a7
 q
 Acustomer/src/main/java/hoxton/customer/config/CustomerConfig.java,7/c/7ca750ee3bdc71b5351da786ccfaa902cd39e7d5
 y

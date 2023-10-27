@@ -13,10 +13,6 @@ n
 >fraud/src/main/java/org/example/service/FraudCheckService.java,0/d/0d493d7e85cea2dd5ead0c5736c1f4fb65b43de4
 f
 6fraud/src/main/java/org/example/FraudCheckHistory.java,c/b/cb68157bc54b6a3fc33e412d8b6b75d7855a6e4f
-u
-Eeureka-server/src/main/java/org/example/EurekaServiceApplication.java,b/1/b17f1063da957904e5ceb238e24360c24ae2c48e
-E
-eureka-server/pom.xml,b/3/b39ae52d769ea03b699b5602439afd875433c8a7
 q
 Acustomer/src/main/java/hoxton/customer/config/CustomerConfig.java,7/c/7ca750ee3bdc71b5351da786ccfaa902cd39e7d5
 y
