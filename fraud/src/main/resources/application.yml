@@ -2,7 +2,7 @@ server:
   port: 8081
 spring:
   application:
-    name: fraud
+    name: fraud-service
   datasource:
     username: root
     password:
@@ -11,3 +11,8 @@ spring:
   jpa:
     hibernate:
       ddl-auto: update
+eureka:
+  client:
+    service-url: { defaultZone: http://localhost:8761/eureka }
+    fetch-registry: true
+    register-with-eureka: true
