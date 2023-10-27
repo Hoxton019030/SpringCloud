@@ -15,17 +15,11 @@ k
 ;customer/src/main/java/hoxton/customer/entity/Customer.java,1/0/109ad6f0488f3a395b412bbc77475b485a614b25
 y
 Icustomer/src/main/java/hoxton/customer/repository/CustomerRepository.java,4/0/40f0b6e0487f635230be982d2a79ef0a35ae0c83
-n
->customer/src/main/java/hoxton/response/FraudCheckResponse.java,e/c/ec1b91fe9767a42816b22e490c200e313a815749
-o
-?customer/src/main/java/hoxton/customer/CustomerApplication.java,9/f/9f11dda60e9a17ffcd7a24aaab2a3537c4452c72
 u
 Eeureka-server/src/main/java/org/example/EurekaServiceApplication.java,b/1/b17f1063da957904e5ceb238e24360c24ae2c48e
 E
 eureka-server/pom.xml,b/3/b39ae52d769ea03b699b5602439afd875433c8a7
 q
 Acustomer/src/main/java/hoxton/customer/config/CustomerConfig.java,7/c/7ca750ee3bdc71b5351da786ccfaa902cd39e7d5
-s
-Ccustomer/src/main/java/hoxton/customer/service/CustomerService.java,2/5/25e4459df493efce2104b632cfa0c387ae98569d
 y
 Icustomer/src/main/java/hoxton/customer/controller/CustomerController.java,7/5/752927f61682f3fcf1a2b294bc22685c179c8194

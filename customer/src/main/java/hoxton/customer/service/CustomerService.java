@@ -3,8 +3,9 @@ package hoxton.customer.service;
 import hoxton.customer.entity.Customer;
 import hoxton.customer.repository.CustomerRepository;
 import hoxton.customer.request.CustomerRegisterRequest;
-import hoxton.response.FraudCheckResponse;
 import lombok.RequiredArgsConstructor;
+import org.hoxton.clients.fraud.FraudCheckResponse;
+import org.hoxton.clients.fraud.FraudClient;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
@@ -13,6 +14,7 @@ import org.springframework.web.client.RestTemplate;
 public class CustomerService {
     private final RestTemplate restTemplate;
     private final CustomerRepository customerRepository;
+    private final FraudClient fraudClient;
 
     public void registerCustomer(CustomerRegisterRequest customerRegisterRequest) {
 
@@ -25,6 +27,9 @@ public class CustomerService {
 
         FraudCheckResponse fraudCheckResponse = restTemplate.getForObject(
                 "http://FRAUD-SERVICE/api/v1/fraud-check/{customerId}", FraudCheckResponse.class, customer.getId());
+
+        FraudCheckResponse fraudster = fraudClient.isFraudster(customer.getId());
+
         if (fraudCheckResponse.getIsFraudster()) {
             throw new IllegalStateException("舞弊者");
         }
