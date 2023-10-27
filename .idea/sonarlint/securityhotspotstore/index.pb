@@ -1,8 +1,6 @@
 
 e
 5fraud/src/main/java/org/example/FraudApplication.java,7/c/7caf736fc6a61680c71e1ae4979f8cd901e2c39d
-=
-fraud/pom.xml,d/0/d024669e89b7b66ac8ba07340a73edc6aa228259
 t
 Dfraud/src/main/java/org/example/dao/FraudCheckHistoryRepository.java,e/c/ec00e588eccc779b13fdeed847b21e87fde66298
 {
