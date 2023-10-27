@@ -1,7 +1,7 @@
 package org.example.service;
 
 import lombok.RequiredArgsConstructor;
-import org.example.FraudCheckHistory;
+import org.example.entity.FraudCheckHistory;
 import org.example.dao.FraudCheckHistoryRepository;
 import org.springframework.stereotype.Service;
 
